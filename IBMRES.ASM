@@ -177,7 +177,7 @@ PUBLIC	ERCTK
 	T	USING
 PUBLIC	USINTK
 	USINTK=QQ
-	T	INSTR
+	T	INSTRC
 PUBLIC	INSRTK
 	INSRTK=QQ
 	T	DUMMY
@@ -399,7 +399,7 @@ HTAB:
 ITAB:
 	Q	INPUT
 	Q	IF
-	Q	INSTR
+	Q	INSTRC
 	QF	INT
 	QF	INP
 	Q	IMP
@@ -986,4 +986,3 @@ EVALNF:	POP	CX		;Get rid of the return address.
 
 CSEG	ENDS
 	END
-                                          

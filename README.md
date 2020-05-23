@@ -1,14 +1,104 @@
 # Microsoft GW-BASIC Interpreter Source Code
 
-This repo contains the original source-code for Microsoft's GW-BASIC interpreter, as of 1983.
+This repo contains the original source-code for Microsoft's GW-BASIC interpreter, as of 1983,
+adjusted for assembling with available versions of the Microsoft Macro Assembler.
 
-## Information
+## Announcement blog
+https://devblogs.microsoft.com/commandline/microsoft-open-sources-gw-basic/
 
-This repo:
+## Progress
 
-1. Is being released for historical reference/interest purposes, and reflects the state of the GW-BASIC interpreter source code as it was in 1983
-1. Will not be modified - please do not submit PR's or request changes
-1. Contains no build scripts, makefiles, or tools required to generate executable binaries, nor does it contain any pre-built binaries / executables
+All files can now be assembled with Microsoft MASM 5.1A.
+This is the version that currently seems to match the code most closely.
+
+The following identifiers cannot be resolved.
+`CLREOL`,
+`CLRSCN`,
+`CSRATR`,
+`CSRDSP`,
+`DONOTE`,
+`DOWNC`,
+`EDTMAP`,
+`FETCHC`,
+`FKYADV`,
+`FKYFMT`,
+`GETFBC`,
+`GETHED`,
+`GRPSIZ`,
+`GTASPC`,
+`GWINI`,
+`GWTERM`,
+`INFMAP`,
+`INICOM`,
+`INKMAP`,
+`KEYINP`,
+`LCPY`,
+`LEFTC`,
+`MAPSUP`,
+`MAPXYC`,
+`NREAD`,
+`NSETCX`,
+`NWRITE`,
+`PEKFLT`,
+`PGINIT`,
+`PIXSIZ`,
+`PNTINI`,
+`POKFLT`,
+`POLLEV`,
+`PRTMAP`,
+`RDPEN`,
+`RDSTIK`,
+`RDTRIG`,
+`READC`,
+`RECCOM`,
+`RIGHTC`,
+`SCALXY`,
+`SCANL`,
+`SCANR`,
+`SCRATR`,
+`SCRINP`,
+`SCROLL`,
+`SCROUT`,
+`SCRSTT`,
+`SEGINI`,
+`SETATR`,
+`SETC`,
+`SETCBF`,
+`SETCLR`,
+`SETFBC`,
+`SNDCOM`,
+`SNDLPT`,
+`STACOM`,
+`STOREC`,
+`SWIDTH`,
+`TDOWNC`,
+`TRMCOM`,
+`TUPC`,
+`UPC`.
+Most identifiers appear to be missing from the source code.
+
+
+Pull requests for fixing the remaining compilation programs are welcomed.
+
+## Building instructions
+Using  [DOSBox](https://www.dosbox.com/) mount a directory containing:
+* This code
+* The Microsoft Macro Assembler (MASM) version 5.1A (`masm.exe`).
+* The Microsoft make program that comes with MASM (`make.exe`).
+
+Run `make makefile` to assemble the files.
+Note the tools may leave behind  party-built executables or object files.
+If you want to rebuild them without changing the source code, you need
+to delete these files by hand.
+
+You can fetch MASM 5.1A from
+[this site](https://www.pcjs.org/software/pcx86/lang/microsoft/masm/5.10x/) as follows.
+* From the pull-down menu select `MS MAcro Assembler 5.10A (Update)`
+* Press the `Load` button to load the disk image into the emulator
+* Press the `Save` button to save the disk image to your computer
+* Copy  the saved disk image to a Linux computer
+* Mount the image using the command `sudo mount MASM51A-UPDATE.img /mnt`
+* Copy the files from `/mnt` to your development directory
 
 ## License
 
@@ -16,9 +106,8 @@ All files within this repo are released under the [MIT (OSI) License]( https://e
 
 ## Contributing
 
-The source files in this repo are for historical reference and will remain read-only and unmodified in their original state. Please  **do not** send Pull Requests suggesting any modifications to the source files.  
-
-Further contribution guidance can be found in the [Contributor's Guide](https://github.com/Microsoft/GW-BASIC/blob/master/CONTRIBUTING.md) stored in the root of this repo.
+Pull requests addressing problems in getting GW-BASIC to build and run
+are welcomed.
 
 ## Code of Conduct
 

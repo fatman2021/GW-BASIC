@@ -143,7 +143,7 @@ DSEG	ENDS
 	EXTRN	GETSPA:NEAR,PUTNEW:NEAR,STOP:NEAR,OMERR:NEAR,REASON:NEAR
 
 
-	EXTRN	INSTR:NEAR
+	EXTRN	INSTRC:NEAR
 
 	EXTRN	PRINUS:NEAR,PUTTMP:NEAR
 
@@ -3564,4 +3564,4 @@ CLROVC: LAHF
 ;
 CSEG	ENDS
 	END
-                                                                                                                 
+

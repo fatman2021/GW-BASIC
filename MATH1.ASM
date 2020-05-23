@@ -2844,7 +2844,7 @@ LENMAT: OR	AL,AL		;LENGTH ZERO?
 	XCHG	CX,AX		;SAVE 2 CHARS OF VAR, PUT LENGTH IN CX
 	MOV	DI,OFFSET NAMBUF	;POINT TO NAME BUFFER
 		     ;COMPARE TWO VAR NAMES
- REP	CMPSB			;WITH SPECIAL INSTR
+ REP	CMPSB			;WITH SPECIAL INSTRC
 	XCHG	AX,CX		;FLIP BACK
 	JZ	FNDITV		;FOUND IT
 	ADD	SI,AX		;ADD CHARS LEFT, CC'S SHOULD BE NON-ZERO
@@ -3825,4 +3825,3 @@ MAXQUO:
 	MOV	AX,CX
 	JNB	RESTORE	;Carry means it's not negative any more
 	RET
-                                                                                                           
