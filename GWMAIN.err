@@ -1,0 +1,55 @@
+OEM.H(165) : Error A2209: Syntax error: LENGTH
+ OEM.H(165): Included by
+  BINTRP.H(5): Included by
+   GWMAIN.ASM(8): Main line code
+GWMAIN.ASM(59) : Error A2209: Syntax error: LABEL
+GWMAIN.ASM(77) : Error A2209: Syntax error: LABEL
+GWMAIN.ASM(113) : Error A2209: Syntax error: NAME
+GWMAIN.ASM(136) : Error A2209: Syntax error: PUSHF
+GWMAIN.ASM(139) : Error A2209: Syntax error: NEG
+GWMAIN.ASM(177) : Error A2209: Syntax error: WHILE
+GWMAIN.ASM(212) : Error A2209: Syntax error: FADD
+GWMAIN.ASM(291) : Error A2209: Syntax error: FOR
+GWMAIN.ASM(292) : Error A2209: Syntax error: GOTO
+GWMAIN.ASM(295) : Error A2209: Syntax error: OPTION
+GWMAIN.ASM(854) : Error A2057: Offset magnitude too large for specified size
+GWMAIN.ASM(897) : Error A2047: Syntax error: Unexpected colon
+GWMAIN.ASM(923) : Error A2064: Expression expected: LOOP
+GWMAIN.ASM(1076) : Error A2209: Syntax error: DB
+GWMAIN.ASM(1079) : Error A2209: Syntax error: DB
+GWMAIN.ASM(1082) : Error A2209: Syntax error: DB
+GWMAIN.ASM(1189) : Error A2209: Syntax error: DB
+GWMAIN.ASM(1190) : Error A2057: Offset magnitude too large for specified size
+GWMAIN.ASM(1191) : Error A2057: Offset magnitude too large for specified size
+GWMAIN.ASM(1192) : Error A2057: Offset magnitude too large for specified size
+GWMAIN.ASM(1193) : Error A2057: Offset magnitude too large for specified size
+GWMAIN.ASM(1194) : Error A2057: Offset magnitude too large for specified size
+GWMAIN.ASM(1195) : Error A2057: Offset magnitude too large for specified size
+GWMAIN.ASM(1200) : Error A2057: Offset magnitude too large for specified size
+GWMAIN.ASM(1201) : Error A2057: Offset magnitude too large for specified size
+GWMAIN.ASM(1202) : Error A2057: Offset magnitude too large for specified size
+GWMAIN.ASM(1203) : Error A2057: Offset magnitude too large for specified size
+GWMAIN.ASM(1204) : Error A2057: Offset magnitude too large for specified size
+GWMAIN.ASM(1205) : Error A2057: Offset magnitude too large for specified size
+GWMAIN.ASM(1206) : Error A2057: Offset magnitude too large for specified size
+GWMAIN.ASM(1207) : Error A2057: Offset magnitude too large for specified size
+GWMAIN.ASM(1445) : Error A2209: Syntax error: FOR
+GWMAIN.ASM(1449) : Error A2057: Offset magnitude too large for specified size
+GWMAIN.ASM(1513) : Error A2057: Offset magnitude too large for specified size
+GWMAIN.ASM(2096) : Error A2178: Directive must appear inside a macro
+GWMAIN.ASM(2127) : Error A2209: Syntax error: LOOP
+GWMAIN.ASM(2197) : Error A2209: Syntax error: GOTO
+GWMAIN.ASM(2222) : Error A2209: Syntax error: DB
+GWMAIN.ASM(2279) : Error A2057: Offset magnitude too large for specified size
+GWMAIN.ASM(2362) : Error A2057: Offset magnitude too large for specified size
+GWMAIN.ASM(2392) : Error A2057: Offset magnitude too large for specified size
+GWMAIN.ASM(2453) : Error A2057: Offset magnitude too large for specified size
+GWMAIN.ASM(2588) : Error A2057: Offset magnitude too large for specified size
+GWMAIN.ASM(2600) : Error A2209: Syntax error: GOTO
+GWMAIN.ASM(2643) : Error A2057: Offset magnitude too large for specified size
+GWMAIN.ASM(3099) : Error A2209: Syntax error: FADD
+GWMAIN.ASM(3221) : Error A2209: Syntax error: DB
+GWMAIN.ASM(3286) : Error A2209: Syntax error: DB
+GWMAIN.ASM(3327) : Error A2209: Syntax error: : CALL	SYNCHR
+GWMAIN.ASM(3411) : Error A2209: Syntax error: DB
+GWMAIN.ASM(3411) : Fatal error A1113: Too many errors
